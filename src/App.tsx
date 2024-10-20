@@ -1,17 +1,14 @@
-import { useState } from 'react'
-
-import './App.css'
+import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-        <h1 className="text-center text-4xl font-bold ">
-      Digital Industry !! New Era
-    </h1>
-    </>
-  )
+    <main>
+      <div className="contentContainer">
+        <Navbar />
+      </div>
+    </main>
+  );
 }
 
-export default App
+export default App;

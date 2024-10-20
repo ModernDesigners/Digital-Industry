@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.contentContainer {
+  width: 1540px;
+  margin: auto;
+  max-width: 80%;
+}
+@font-face {
+  font-family: eurostileB;
+  src: url(./fonts/Eurostile/eurostile-lt-std-geo-mt-bold.ttf);
+}
